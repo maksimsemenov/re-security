@@ -1,0 +1,48 @@
+.terminal {
+  box-sizing: border-box;
+  margin: 10px;
+  width: 30%;
+  min-width: 410px;
+  padding: 15px;
+  border: 1px solid #eeeeee;
+  border-radius: 2px;
+}
+.terminal:hover {
+  border-color: #ddd;
+}
+
+.terminal__name {
+  font-size: 13px;
+  font-weight: bolder;
+}
+
+.terminal__graph {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-end;
+}
+
+.terminal__bar {
+  margin: 0 1px 0 0;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.terminal__file {
+  background-color: #8DD3C7;
+}
+.terminal__network {
+  background-color: #80B0D3;
+}
+.terminal__registry {
+  background-color: #B3DE69;
+}
+.terminal__process {
+  background-color: #BEBADA;
+}
+.terminal__suspicios {
+  background-color: #BC80BD;
+}
